@@ -1,0 +1,240 @@
+ nav {
+     /* background-color: rgba(145, 154, 185, 0.438); */
+     background-color: rgba(145, 154, 185, 0.438);
+     display: flex;
+     justify-content: space-between;
+     margin-top: -8.30px;
+     position: fixed;
+     width: 100%;
+     padding: 0;
+     
+
+ }
+
+
+ nav .title {
+     padding-top: 14px;
+     padding-left: 40px;
+     font-size: 20px;
+     font-weight: 100%;
+     
+     font-family: cursive;
+     color:#FFFFFF;
+ }
+
+ .info li {
+
+     text-decoration: none;
+     display: inline;
+     /* padding: 30px; */
+     margin-right: 30px;
+     color: black;
+     text-transform: uppercase;
+
+ }
+
+ /* li:hover{
+    color: red;
+}
+.info a:hover{
+    background-color: red;
+    color: rebeccapurple;
+} */
+
+
+ .parent:hover {
+     background: rgba(53, 8, 177, 0.167);
+
+ }
+
+ /* .parent:hover {
+    background-color: rgba(130, 112, 250, 0.949);
+} */
+
+
+ body {
+     font-family: 'nunito', sans-serif;
+     background-color: #f0f0f0;
+     background-image: url("images/background_template.jpg");
+ }
+
+
+ .pg_body {
+     padding: 40px;
+     display: grid;
+     grid-template-columns: repeat(3, 33.33%);
+ }
+
+
+ .parent {
+
+     width: 350px;
+     padding: 50px;
+     margin-left: 12px;
+     margin-top: 14px;
+     text-align: center;
+     border-radius: 20px;
+     /* border: 2px solid #f0f0f0; */
+     background-color: white;
+     border: 1px solid rgb(234, 255, 3);
+ }
+
+ .parent img {
+     /* padding: 5px; */
+     height: 150px;
+     width: 150px;
+
+ }
+
+ .parent h5 {
+
+     text-align: center;
+     text-transform: capitalize;
+ }
+
+ .parent h2 {
+     text-align: center;
+ }
+
+ .p1 {
+     border: 1px solid rgb(234, 255, 3);
+     border-radius: 15px;
+     font-size: 15px;
+     color: black;
+     padding: 10px;
+     background-color: white;
+
+ }
+
+ #buy {
+
+     border-radius: 15px;
+     border: 1px solid rgb(234, 255, 3);
+     padding: 12px;
+     margin-left: 60px;
+     text-decoration: none;
+     color: black;
+     background-color: white;
+     font-size: 15px;
+ }
+
+ #buy:hover {
+     background-color: forestgreen;
+     color: white;
+     transition-duration: 0.4s;
+ }
+
+ .p1:hover {
+     background-color: orangered;
+     color: white;
+ }
+
+ #removeimg {
+     border-radius: 15px;
+     border: 1px solid #09e783;
+     padding: 12px;
+     text-decoration: none;
+     color: black;
+     background-color: white;
+     font-size: 15px;
+ }
+
+ #removeimg:hover {
+     background-color: red;
+     color: white;
+ }
+
+ #foot {
+
+     /* background-color: #f0f0f0; */
+     font-size:15px;
+     font-style: oblique;
+     /* font-family: 'Times New Roman', Times, serif; */
+     border-radius: 14px;
+     border: 2px solid rgb(255, 238, 3);
+     padding: 30px;
+     color:#FFFFFF;
+     /* background-color:rgba(239, 239, 239, 0.744); */
+     /* background-image: url("images/footer_img.jpg"); */
+
+
+ }
+
+
+ #foot th {
+     padding: 40px;
+ }
+
+ #foot td a {
+
+     text-decoration: none;
+     color: black;
+     color:#FFFFFF;
+ }
+
+ #foot tr {
+     padding: 40px;
+     text-align: center;
+ }
+
+
+ #profile {
+     margin-top: 40px;
+     border: 2px solid rgb(255, 238, 3);
+     border-radius: 20px;
+     width: 30%;
+    
+
+ }
+
+ #foot img {
+     padding: 10px;
+ }
+
+
+
+ 
+
+  /* .logo {
+
+      width: ;
+     height: 100vh;
+     left: 50%;
+     top: 50%; */
+      /* transform: translate(-50%, -50%); */
+      /* position: absolute;  
+     width: 100%;
+     background-image: url("images/logo_2.jpg");
+     height:100vh;
+      background-repeat: no-repeat; 
+     background-size: cover;
+     background-size: 100% 100%;
+     box-shadow: 1px 2px 10px 5px black;
+     animation: slider 10s infinite linear; 
+   } */
+/* 
+ @keyframes slider {
+     0% {
+         background-image: url("images/canvas.jpeg");
+     }
+
+     35% {
+         background-image: url("images/formal.jpeg");
+     }
+
+     75% {
+         background-image: url("images/loafer.jpg");
+     } 
+
+ }   */
+
+
+ #floot{
+    padding-top: 14px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 100%;
+    
+    font-family: cursive;
+    color:#FFFFFF;
+}
